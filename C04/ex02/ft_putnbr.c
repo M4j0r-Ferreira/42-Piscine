@@ -22,7 +22,6 @@ void	ft_putnbr(int nb)
 	long int	n;
 
 	n = nb;
-
 	if (n < 0)
 	{
 		ft_putchar('-');

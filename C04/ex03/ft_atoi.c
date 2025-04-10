@@ -18,7 +18,6 @@ int	ft_atoi(char *str)
 
 	i = 0;
 	sum = 0;
-
 	sign = 1;
 	while (str[i] == ' ' || (str[i] >= 9 && str[i] <= 13))
 		++i;
